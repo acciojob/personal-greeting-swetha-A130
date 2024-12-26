@@ -5,7 +5,8 @@ import './../styles/App.css';
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+        <label for="username">Enter your name:</label>
+     <input type="text" id="username" name="username">
     </div>
   )
 }
